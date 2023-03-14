@@ -42,7 +42,7 @@ def start_game():
     if (step == 10):
         print('Игра окончена! Ничья')
     else:
-        print ('Победа!' + check_win())
+        print ('Победил игрок ' + check_win() + ' !')
 
 print("Добро пожаловать в игру Крестики-нолики")
 start_game()
